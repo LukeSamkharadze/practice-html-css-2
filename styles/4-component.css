@@ -4,9 +4,8 @@
   background-color: #f9fbfa;
   border-top: 1px solid rgba(128, 128, 128, 0.1);
   display: flex;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
-  padding: 0 19.2% 0 19.2%;
 }
 
 ._4-component-TextArea {
@@ -14,10 +13,8 @@
   min-width: 333px;
   display: grid;
   padding-right: 4%;
-  align-self: flex-start;
-  margin-top: 4.7%;
   box-sizing: border-box;
-  flex-shrink: 0.1;
+  margin: 0px 0px 17px 5px;
 }
 
 ._4-component-Text1 {
@@ -44,7 +41,7 @@
 
 ._4-component-Button {
   margin-top: 26px;
-  width: 174px;
+  width: 173px;
   height: 50px;
   background-color: white;
   border: 1px solid rgba(128, 128, 128, 0.2);
@@ -54,4 +51,5 @@
 ._4-component-Image {
   width: 28.5%;
   margin-top: 26px;
+  max-width: 900px;
 }
