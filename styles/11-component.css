@@ -57,7 +57,9 @@
   padding-right: 30px;
 }
 
-._11-component-Text4 {
+._11-component-ViewDetails {
+  text-decoration: none;
+  display: inline-block;
   font-family: "Lato", sans-serif;
   font-size: 15px;
   font-weight: 700;
