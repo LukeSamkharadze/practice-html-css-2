@@ -1,0 +1,209 @@
+._13-component {
+  width: 100%;
+  height: 775px;
+  background-color: #2f313d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+._13-component-Text1 {
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: white;
+}
+
+._13-component-Text2 {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+  margin-left: 3px;
+}
+
+._13-component-Text1 + ._13-component-Text2 {
+  margin-top: 37px;
+}
+
+._13-component-Container1 {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+  padding: 1px 0px 0px 11px;
+  box-sizing: border-box;
+}
+
+._13-component-Icons {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  column-gap: 24.3px;
+  margin-left: 5px;
+  align-items: center;
+}
+
+._13-component-Text2 + ._13-component-Icons {
+  margin-top: 5px;
+}
+
+._13-component-Icon {
+  font-size: 48px;
+}
+
+._13-component-Input {
+  width: 96.8%;
+  background: none;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-top: 15px;
+  padding-left: 18px;
+}
+
+._13-component-Input + ._13-component-Input {
+  margin-top: 20px;
+}
+
+._13-component-Input::placeholder {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+._13-component-TextArea {
+  height: 100px;
+}
+
+._13-component-Button {
+  width: 96.8%;
+  margin-left: 5px;
+  background-color: #1abc9c;
+  height: 55px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+}
+
+._13-component-TextArea + ._13-component-Button {
+  margin-top: 22px;
+}
+
+._13-component-Container2 {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+  box-sizing: border-box;
+  padding: 2px 0px 0px 12px;
+}
+
+._13-component-InfoContainer {
+  display: flex;
+  padding-left: 2px;
+  column-gap: 20px;
+}
+
+._13-component-Text1 + ._13-component-InfoContainer {
+  margin-top: 38px;
+}
+
+._13-component-InfoContainer + ._13-component-InfoContainer {
+  margin-top: 35px;
+}
+
+._13-component-Avatar {
+  width: 125px;
+  height: 125px;
+  flex-shrink: 0;
+  background-color: white;
+  margin-top: 5px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+._13-component-Avatar::before {
+  font-family: "Lato", sans-serif;
+  content: "+";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 72px;
+  color: #fff;
+  opacity: 0;
+}
+
+._13-component-Avatar:hover {
+  border: 5px solid white;
+  background: none;
+}
+
+._13-component-Avatar:hover::before {
+  opacity: 1;
+}
+
+._13-component-UserInfo {
+  justify-content: flex-start;
+}
+
+._13-component-Name {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+}
+
+._13-component-Job {
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+._13-component-Info {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: white;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+._13-component-Buttons {
+  display: flex;
+  column-gap: 6px;
+  margin: 33px 0 0 3px;
+}
+
+._13-component-SmallButton {
+  background-color: white;
+  width: 10px;
+  height: 10px;
+}
+
+._13-component-Green {
+  background-color: #1beac1;
+}
+
+._13-component-Icon {
+  box-sizing: border-box;
+  fill: white;
+}
+
+._13-component-Icon:hover {
+  fill: #16b5d8;
+  padding: 1px;
+}
+
+._13-component-Green {
+  background-color: #1beac1;
+}
