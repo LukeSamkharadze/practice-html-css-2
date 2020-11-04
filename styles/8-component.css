@@ -1,0 +1,95 @@
+._8-component {
+  width: 100%;
+  height: 710px;
+  display: flex;
+  background-color: #f9fbfa;
+  flex-direction: column;
+  align-items: center;
+}
+
+._8-component-Title {
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #2c3e50;
+  margin: 90px 0px 12px 0px;
+}
+
+._8-component-Description {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  width: 630px;
+  text-align: center;
+  color: #a1b1bc;
+}
+
+._8-component-Name {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #2c3e50;
+  margin: 15px 0px 7px 0px;
+}
+
+._8-component-Type {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #a1b1bc;
+}
+
+._8-component-Bar {
+  height: 145px;
+  margin-top: 66px;
+  padding-bottom: 10px;
+  width: 61.5%;
+  min-width: 500px;
+  box-sizing: border-box;
+  border: 1px solid rgba(128, 128, 128, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #a1b1bc;
+  text-align: center;
+  background-color: white;
+}
+
+._8-component-Avatar {
+  margin-top: 33px;
+  width: 112px;
+  height: 112px;
+  box-sizing: border-box;
+  background-color: #a1b1bc;
+  border-radius: 112px;
+  border: 6px solid white;
+  box-shadow: 0px 0px 2px 2px rgba(128, 128, 128, 0.1);
+}
+
+._8-component-Radios {
+  display: flex;
+  column-gap: 10px;
+  margin: 53px 0 0 6px;
+}
+
+._8-component-Radio {
+  width: 12px;
+  height: 12px;
+  border-radius: 12px;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.33);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+._8-component-GreenRadio {
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background-color: #1abc9c;
+}
