@@ -43,7 +43,7 @@
 ._6-component-Flex {
   display: flex;
   height: 300px;
-  width: 100vw;
+  width: 100%;
   margin-top: 33px;
 }
 
@@ -86,7 +86,6 @@
   text-align: center;
 }
 
-._6-component-RightPadding
-{
+._6-component-RightPadding {
   padding: 2px 71.2px 0px 69px;
 }
