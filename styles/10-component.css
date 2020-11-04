@@ -1,0 +1,233 @@
+._10-component {
+  width: 100%;
+  height: 1098px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+._10-component-Title {
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #2c3e50;
+  margin: 92px 0px 5px 0px;
+}
+
+._10-component-Description {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  width: 630px;
+  text-align: center;
+  color: #a1b1bc;
+}
+
+._10-component-Grid {
+  display: grid;
+  width: 61.5%;
+  min-width: 750px;
+  margin: 67px 0px 0px 0px;
+  gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 16px 65px 83px repeat(6, 39.2px) 85px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+._10-component-PricingPlan {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  color: #a1b1bc;
+  grid-row: span 2;
+  background-color: #eaebec;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 2px #ffffff;
+}
+
+._10-component-Type {
+  background-color: #34495e;
+  width: 100%;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+._10-component-UltimateType {
+  grid-row: span 2;
+}
+
+._10-component-Price {
+  width: 100%;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  font-size: 48px;
+  line-height: 16px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  background: rgb(29,209,173);
+  background: linear-gradient(90deg, rgba(29,209,173,1) 0%, rgba(69,208,255,1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4px;
+  border-top: 3px double #34495e;
+  position: relative;
+}
+
+._10-component-Price2 {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+._10-component-Line
+{
+  width: 100%;
+  height: 3px;
+  background-color: rgba(0, 0, 0, 0.1);
+  align-self: flex-end;
+  position: absolute;
+  bottom: 0px;
+}
+
+._10-component-Text4 {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #686d80;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+._10-component-Q {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #ef584d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+._10-component-R {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #7bc200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+._10-component-EmptyBlock {
+  width: 100%;
+  height: 100%;
+}
+
+._10-component-OrderNow {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+._10-component-Button {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: 900;
+  background-color: #1abc9c;
+  width: 120px;
+  height: 33px;
+  margin-bottom: 3px;
+  border: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+._10-component-Button:hover {
+  background-color: #3A3E4A;
+}
+
+._10-component-LightColor {
+  background-color: #f6f6f6;
+}
+
+._10-component-GrayColor {
+  background-color: #ecf0f1;
+}
+
+._10-component-DarkerColor {
+  background-color: #eaebed;
+}
+
+._10-component-PurchaseNowContainer {
+  margin-top: 98px;
+  width: 61.5%;
+  min-width: 750px;
+  height: 148px;
+  border: 1px solid rgba(128, 128, 128, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+._10-component-Decoration {
+  background-color: #1abc9c;
+  height: 95%;
+  width: 10px;
+  margin: 0px 30px 0px 5px;
+}
+
+._10-component-TextContainer {
+  height: 100%;
+  width: 76.75%;
+}
+
+._10-component-BarTitle {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #2c3e50;
+  margin: 28px 0px 10px 0px;
+}
+
+._10-component-BarDescription {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #a1b1bc;
+  padding-right: 50px;
+}
+
+._10-component-PurchaseNowButton {
+  background-color: #1abc9c;
+  color: white;
+  width: 176px;
+  height: 52px;
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
