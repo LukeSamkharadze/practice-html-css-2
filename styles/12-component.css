@@ -1,0 +1,80 @@
+._12-component {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+}
+
+._12-component-Title {
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: #2c3e50;
+  margin-left: 12px;
+}
+
+._12-component-Description {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #2c3e50;
+  text-align: center;
+  margin: 10px 0 0 11px;
+  line-height: 24px;
+}
+
+._12-component-Grid {
+  display: grid;
+  width: 1171px;
+  height: 453px;
+  margin-top: 45px;
+  grid-template-columns: repeat(3, 170px 192px);
+  grid-template-rows: 1fr 1fr;
+  row-gap: 50px;
+  column-gap: 19px;
+}
+
+._12-component-Image {
+  background-color: #cccccc;
+}
+
+._12-component-MainText {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 27px;
+  color: #2c3e50;
+  padding-right: 9px;
+  position: relative;
+  top: -5px;
+  letter-spacing: -0.2px;
+  margin-bottom: 8px;
+}
+
+._12-component-Info {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  color: #a1b1bc;
+}
+
+._12-component-Green {
+  color: #1abc9c;
+}
+
+._12-component-Icon {
+  margin-right: 7px;
+}
+
+._12-component-Bookmark {
+  margin: -5px 9px 0 1px;
+}
+._12-component-Detail + ._12-component-Detail {
+  margin-top: 11px;
+}
+
+._12-component-Image:hover
+{
+    background-color: #2C3E50;
+    transition: 0.2s ease;
+}
