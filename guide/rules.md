@@ -1,0 +1,26 @@
+- Finish - 4 /11/2020 morning
+- Repository - "personal-project-html-and-css"
+- Select one project from two options (easy vs hard)
+- Each project has own score:
+  - easy
+    - Components count: 11
+    - Each component score: 25
+    - Minimum components count: 6
+    - Minimum score: 150
+    - Maximum score: 275
+  - hard
+    - Components count: 16
+    - Each component score: 30
+    - Minimum components count: 9
+    - Minimum score: 270
+    - Maximum score: 480
+- Each component divided by green line. DON'T NEED TO ADD IT!
+- Each component should be independent and portable
+- Viewport resize should not break positions (use min-width, max-width, percentages)
+- Student HAS TO follow top to bottom through all components.
+- Student HAS TO follow pixel perfect rule.
+- Student HAS TO create structure like this:
+  - index.html
+  - styles folder
+  - images folder
+- Student HAS TO use conventional commits.
