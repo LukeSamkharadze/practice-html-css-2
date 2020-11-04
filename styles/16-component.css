@@ -1,0 +1,62 @@
+._16-component
+{
+    width: 100%;
+    height: 80px;
+    background-color: #222534;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    column-gap: 9.9%;
+}
+
+._16-component-CopyrightContainer
+{
+    display: flex;
+    align-items: center;
+}
+
+._16-component-Fox
+{
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+}
+
+._16-component-Green
+{
+    color: #1ABC9C;
+}
+
+._16-component-CopyrightText
+{
+    margin-left: 20px;
+    display: flex;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    color: #A1B1BC;
+}
+
+._16-component-Navigations
+{
+    display: flex;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    color: #A1B1BC;
+    column-gap: 30px;
+}
+
+._16-component-Navigation
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    color: #A1B1BC;
+    box-sizing: border-box;
+}
+
+._16-component-Navigation:hover
+{
+    border-top: 2px solid #1ABC9C;
+    padding-bottom: 1.5px;
+}
