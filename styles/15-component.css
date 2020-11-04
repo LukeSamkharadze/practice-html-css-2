@@ -1,5 +1,6 @@
 ._15-component {
   width: 100%;
+  min-width: 1000px;
   height: 607px;
   background-color: #1a1c28;
   display: flex;
@@ -145,6 +146,7 @@
 
 ._15-component-NewsPicture:hover {
   background-color: #1abc9c;
+  transition: 0.1s ease;
 }
 
 ._15-component-NewsPicture:hover::before {
@@ -157,6 +159,7 @@
   transform: translate(-50%, -50%);
   font-size: 72px;
   color: #fff;
+  transition: 0.1s ease;
 }
 
 ._15-component-Container3 {
@@ -186,6 +189,7 @@
 ._15-component-Widget:hover {
   background-color: #a1b1bc;
   border: 4px solid white;
+  transition: 0.2s ease;
 }
 
 ._15-component-ViewMore {

@@ -1,5 +1,6 @@
 ._13-component {
   width: 100%;
+  min-width: 1000px;
   height: 775px;
   background-color: #2f313d;
   display: flex;
@@ -146,10 +147,12 @@
 ._13-component-Avatar:hover {
   border: 5px solid white;
   background: none;
+  transition: 0.2s ease;
 }
 
 ._13-component-Avatar:hover::before {
   opacity: 1;
+  transition: 0.2s ease;
 }
 
 ._13-component-UserInfo {
@@ -188,6 +191,7 @@
   background-color: white;
   width: 10px;
   height: 10px;
+  display: inline-block;
 }
 
 ._13-component-Green {
@@ -202,6 +206,7 @@
 ._13-component-Icon:hover {
   fill: #16b5d8;
   padding: 1px;
+  transition: 0.2s ease;
 }
 
 ._13-component-Green {

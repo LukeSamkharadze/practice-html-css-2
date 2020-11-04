@@ -1,18 +1,21 @@
 ._16-component
 {
     width: 100%;
+    min-width: 1000px;
     height: 80px;
     background-color: #222534;
     display: flex;
     align-items: stretch;
     justify-content: center;
     column-gap: 9.9%;
+    text-align: center;
 }
 
 ._16-component-CopyrightContainer
 {
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 }
 
 ._16-component-Fox
@@ -33,6 +36,7 @@
     font-family: "Lato", sans-serif;
     font-size: 15px;
     color: #A1B1BC;
+
 }
 
 ._16-component-Navigations
@@ -42,6 +46,7 @@
     font-size: 14px;
     color: #A1B1BC;
     column-gap: 30px;
+    flex-shrink: 0;
 }
 
 ._16-component-Navigation
@@ -59,4 +64,5 @@
 {
     border-top: 2px solid #1ABC9C;
     padding-bottom: 1.5px;
+    transition: 0.1s ease;
 }
